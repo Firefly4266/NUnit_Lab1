@@ -17,6 +17,7 @@ namespace AcmeTest
         private void OneCustomer()
         {
             Customer cust = new Customer("Dog", "Taranova", "dog@crime.com");
+            ShowCustomer(cust);
         }
     }
 }
