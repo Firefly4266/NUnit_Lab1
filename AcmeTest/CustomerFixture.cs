@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using NUnit.Framework;
 
 namespace AcmeTest
@@ -18,12 +14,9 @@ namespace AcmeTest
             Console.WriteLine("email = {0}", cust.EmailAddress);
         }
         [Test]
-        public Customer(string first, string last, string email)
+        private void OneCustomer()
         {
-            CustomerId = nextCustId++;
-            FirstName = first;
-            LastName = last;
-            EmailAddress = email;
+            Customer cust = new Customer("Dog", "Taranova", "dog@crime.com");
         }
     }
 }

@@ -57,6 +57,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\AcmeLib\bin\Debug\AcmeLib.dll</HintPath>
     </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>C:\Program Files (x86)\NUnit.Framework-3.7.1\bin\net-4.5\nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />

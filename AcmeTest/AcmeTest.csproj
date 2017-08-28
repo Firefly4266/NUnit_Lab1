@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AcmeLib">
+      <HintPath>..\AcmeLib\bin\Debug\AcmeLib.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>C:\Program Files (x86)\NUnit.Framework-3.7.1\bin\net-4.5\nunit.framework.dll</HintPath>
     </Reference>
